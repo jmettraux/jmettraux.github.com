@@ -48,5 +48,8 @@ p.quiet { color: #666; }
 #header {
   font-size: 3em;
 }
+a.majorlink {
+  font-size: 2em;
+}
 
 /* EOF */
