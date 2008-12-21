@@ -16,6 +16,8 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+
+   <script src="http://github.com/jmettraux/pilatus/raw/master/public/pilatus.js"><script>
 </head>
 <body>
 
@@ -29,6 +31,16 @@
      <a class="majorlink" href="http://jmettraux.wordpress.com">blog</a>
      <a class="majorlink" href="http://github.com/jmettraux">code</a>
    </div>
+
+   <div class="column span-20 prepend-2 first last">
+     <div class="feed" id="feed"></div>
+   </div>
+
+   <script>
+     Pilatus.loadAndRender(
+       'feed',
+       "http://pipes.yahoo.com/pipes/pipe.run?_id=7f48b457cbaca07d5f80197573be608d");
+   </script>
 
 </div>
 </body>
