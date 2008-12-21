@@ -46,6 +46,7 @@ p.quiet { color: #666; }
 .alt    { color: #666; }
 
 #header {
+  color: #bbbbbb;
   font-size: 3em;
 }
 a.majorlink {
