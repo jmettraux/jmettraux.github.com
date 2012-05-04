@@ -1,7 +1,7 @@
 
-module Jmettraux
+module Jekyll
 
-  module DateFilter
+  module MyDateFilter
 
     def date_to_s(input)
       input.strftime('%Y-%m-%d')
@@ -9,5 +9,5 @@ module Jmettraux
   end
 end
 
-Liquid::Template.register_filter(Jmettraux::DateFilter)
+Liquid::Template.register_filter(Jekyll::MyDateFilter)
 
