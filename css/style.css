@@ -1,0 +1,80 @@
+
+/*
+ * default layout
+ */
+
+body {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica;
+  line-height: 18px;
+  margin: 0 auto;
+  margin-top: 1em;
+  width: 700px;
+}
+
+h1 {
+  font-size: 200%;
+  margin-top: 1em;
+  margin-bottom: 1.4em;
+}
+
+h2 {
+  font-size: 130%;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  opacity: 0.4;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.7em;
+}
+
+a {
+  color: #0B0080;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #0645AD;
+}
+/*
+a:visited:hover {
+  color: #707070;
+}
+*/
+
+ul, ol {
+  margin: 0; padding: 0; border: 0;
+  margin-top: 0.8em;
+  margin-bottom: 1em;
+  margin-left: 20px;
+}
+ul {
+  list-style-type: square;
+}
+li {
+  margin: 0; padding: 0; border: 0;
+}
+
+/*
+ * post layout
+ */
+
+div.post {
+  margin-bottom: 3em;
+}
+
+h1 span.nav {
+  margin-left: 1em;
+  font-size: 30%;
+}
+h1 span.nav a {
+  opacity: 0.14;
+}
+h1 span.nav a:hover {
+  opacity: 0.7;
+}
+

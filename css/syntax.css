@@ -1,0 +1,181 @@
+
+/*
+ *  .c  Comment
+ *  .err  Error
+ *  .k  Keyword
+ *  .o  Operator
+ *  .cm  Comment.Multiline
+ *  .cp  Comment.Preproc
+ *  .c1  Comment.Single
+ *  .cs  Comment.Special
+ *  .gd  Generic.Deleted
+ *  .gd .x  Generic.Deleted.Specific
+ *  .ge  Generic.Emph
+ *  .gr  Generic.Error
+ *  .gh  Generic.Heading
+ *  .gi  Generic.Inserted
+ *  .gi .x  Generic.Inserted.Specific
+ *  .go  Generic.Output
+ *  .gp  Generic.Prompt
+ *  .gs  Generic.Strong
+ *  .gu  Generic.Subheading
+ *  .gt  Generic.Traceback
+ *  .kc  Keyword.Constant
+ *  .kd  Keyword.Declaration
+ *  .kp  Keyword.Pseudo
+ *  .kr  Keyword.Reserved
+ *  .kt  Keyword.Type
+ *  .m  Literal.Number
+ *  .s  Literal.String
+ *  .na  Name.Attribute
+ *  .nb  Name.Builtin
+ *  .nc  Name.Class
+ *  .no  Name.Constant
+ *  .ni  Name.Entity
+ *  .ne  Name.Exception
+ *  .nf  Name.Function
+ *  .nn  Name.Namespace
+ *  .nt  Name.Tag
+ *  .nv  Name.Variable
+ *  .ow  Operator.Word
+ *  .w  Text.Whitespace
+ *  .mf  Literal.Number.Float
+ *  .mh  Literal.Number.Hex
+ *  .mi  Literal.Number.Integer
+ *  .mo  Literal.Number.Oct
+ *  .sb  Literal.String.Backtick
+ *  .sc  Literal.String.Char
+ *  .sd  Literal.String.Doc
+ *  .s2  Literal.String.Double
+ *  .se  Literal.String.Escape
+ *  .sh  Literal.String.Heredoc
+ *  .si  Literal.String.Interpol
+ *  .sx  Literal.String.Other
+ *  .sr  Literal.String.Regex
+ *  .s1  Literal.String.Single
+ *  .ss  Literal.String.Symbol
+ *  .bp  Name.Builtin.Pseudo
+ *  .vc  Name.Variable.Class
+ *  .vg  Name.Variable.Global
+ *  .vi  Name.Variable.Instance
+ *  .il  Literal.Number.Integer.Long
+ */
+
+code {
+  font-size: 14px;
+  line-height: 15px;
+}
+div.highlight {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 0.7em;
+  margin-bottom: 0.8em;
+}
+.highlight pre {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.highlight {
+  color: #929292;
+  background: black;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.highlight .lineno {
+  color: #606060;
+  background: #323232;
+  margin-left: 0.5em;
+  padding-left: 3px; padding-right: 3px;
+}
+
+/*
+ * *Normal          anything
+ * *Comment         any comment
+ * *Constant        any constant
+ *    String          a string constant: "this is a string"
+ *    Character       a character constant: 'c', '\n'
+ *    Number          a number constant: 234, 0xff
+ *    Boolean         a boolean constant: TRUE, false
+ *    Float           a floating point constant: 2.3e10
+ * *Identifier      any variable name
+ *    Function        function name (also: methods for classes)
+ * *Statement       any statement
+ *    Conditional     if, then, else, endif, switch, etc.
+ *    Repeat          for, do, while, etc.
+ *    Label           case, default, etc.
+ *    Operator        "sizeof", "+", "*", etc.
+ *    Keyword         any other keyword
+ *    Exception       try, catch, throw
+ * *PreProc         generic Preprocessor
+ *    Include         preprocessor #include
+ *    Define          preprocessor #define
+ *    Macro           same as Define
+ *    PreCondit       preprocessor #if, #else, #endif, etc.
+ * *Type            int, long, char, etc.
+ *    StorageClass    static, register, volatile, etc.
+ *    Structure       struct, union, enum, etc.
+ *    Typedef         A typedef
+ * *Special         any special symbol
+ *    SpecialChar     special character in a constant
+ *    Tag             you can use CTRL-] on this
+ *    Delimiter       character that needs attention
+ *    SpecialComment  special things inside a comment
+ *    Debug           debugging statements
+ * *Underlined      text that stands out, HTML links
+ * *Ignore          left blank, hidden  |hl-Ignore|
+ * *Error           any erroneous construct
+ * *Todo            anything that needs extra attention; mostly the
+ *                  keywords TODO FIXME and XXX
+ *
+ *  hi! Normal cterm=NONE ctermfg=244 ctermbg=16 " #929292 black
+ *  hi! Comment cterm=bold ctermfg=238 ctermbg=16 " #565656
+ *  hi! Constant cterm=bold ctermfg=179 ctermbg=16 " #DEBA76
+ *    hi! String cterm=bold ctermfg=191 ctermbg=16 " #DEF979
+ *  hi! Identifier cterm=NONE ctermfg=71 ctermbg=16 " #73B874
+ *    hi! Function cterm=NONE ctermfg=83 ctermbg=16 " #75F877
+ *  hi! Statement cterm=NONE ctermfg=41 ctermbg=16 " #18D875
+ *    hi! Keyword cterm=NONE ctermfg=76 ctermbg=16 " #74D822
+ *  hi! PreProc cterm=NONE ctermfg=29 ctermbg=16 " #0D9672
+ *  hi! Type cterm=NONE ctermfg=136 ctermbg=16 " #BC961B
+ *  hi! Special cterm=NONE ctermfg=196 ctermbg=16 " #FD2517
+ *    hi! Delimiter cterm=NONE ctermfg=196 ctermbg=16
+ *  hi! Todo cterm=NONE ctermfg=16 ctermbg=41 " black #18D875
+ */
+
+.highlight .c,
+.highlight .cm, .highlight .cp, .highlight .c1,
+.highlight .cs { /* comments */
+  color: #565656; font-weight: bold;
+}
+.highlight .kc, .highlight .no, .highlight .nc { /* constants */
+  /*color: #DEBA76; font-weight: bold;*/
+  color: #B18733; font-weight: bold;
+}
+
+.highlight .s,
+.highlight .sb, .highlight .sc, .highlight .sd .highlight .s2, .highlight .se,
+.highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1,
+.highlight .ss { /* strings */
+  color: #DEF979; font-weight: bold;
+}
+.highlight .nv,
+.highlight .vc, .highlight .vg, .highlight .vi { /* variables */
+  color: #73B874;
+}
+.highlight .nf { /* functions */
+  color: #75F877;
+}
+.highlight .k,
+.highlight .kc, .hightlight .kd, .hightlight .kp,
+.highlight .kr { /* keywords */
+  color: #74D822;
+}
+.highlight .kt { /* types */
+  color: #BC961B;
+}
+
