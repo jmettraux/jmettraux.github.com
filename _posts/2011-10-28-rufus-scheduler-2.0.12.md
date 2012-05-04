@@ -1,6 +1,7 @@
 ---
 layout: post
 title: rufus-scheduler 2.0.12 released
+comments: "https://github.com/jmettraux/jmettraux.github.com/commit/e86a097fcaff49f55ff36d4258832261ca50573a#comments"
 ---
 
 rufus-scheduler is a thread-based scheduler written in Ruby. It lets you write code like:

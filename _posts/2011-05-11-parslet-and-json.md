@@ -1,6 +1,7 @@
 ---
 layout: post
 title: parslet and json
+comments: "https://github.com/jmettraux/jmettraux.github.com/commit/e86a097fcaff49f55ff36d4258832261ca50573a#comments"
 ---
 
 [Parslet](https://github.com/kschiess/parslet) is a small Ruby library for

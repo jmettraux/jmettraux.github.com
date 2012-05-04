@@ -4,6 +4,9 @@ layout: default
 
 <h1>{{ page.title }}<span class="nav">
   <a href="/">home</a>
+  {% if page.comments %}
+    <a href="{{ page.comments }}">comments</a>
+  {% endif %}
 </span></h1>
 
 <div class="post">
