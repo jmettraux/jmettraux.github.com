@@ -48,7 +48,7 @@ a:visited:hover {
 
 ul, ol {
   margin: 0; padding: 0; border: 0;
-  margin-top: 0.8em;
+  margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 20px;
 }
@@ -67,14 +67,32 @@ div.post {
   margin-bottom: 3em;
 }
 
+h1 span.date {
+  margin-left: 4px;
+  font-size: 40%;
+  opacity: 0.4;
+}
+
 h1 span.nav {
-  margin-left: 1em;
-  font-size: 30%;
+  margin-left: 4px;
+  font-size: 40%;
 }
 h1 span.nav a {
   opacity: 0.14;
 }
 h1 span.nav a:hover {
   opacity: 0.7;
+}
+
+.post div.cr {
+  margin-top: 4em;
+  font-size: 70%;
+  opacity: 0.7;
+}
+
+img {
+  border: 0;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
 }
 

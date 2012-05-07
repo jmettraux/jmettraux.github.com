@@ -91,6 +91,9 @@ div.highlight {
   background: #323232;
   margin-left: 0.5em;
   padding-left: 3px; padding-right: 3px;
+  display: inline-block;
+  text-align: right;
+  min-width: 21px;
 }
 
 /*
@@ -162,6 +165,11 @@ div.highlight {
 .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1,
 .highlight .ss { /* strings */
   color: #DEF979; font-weight: bold;
+}
+.highlight .m,
+.highlight .mf, .highlight .mh, .highlight .mi,
+.highlight .mo { /* numbers */
+  color: #B18733; font-weight: bold;
 }
 .highlight .nv,
 .highlight .vc, .highlight .vg, .highlight .vi { /* variables */
