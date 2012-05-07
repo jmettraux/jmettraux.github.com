@@ -1,6 +1,7 @@
 ---
 layout: post
 title: fear of a new line
+comments: "https://github.com/jmettraux/jmettraux.github.com/commit/4b7dadbc8e5ae563fcb9b84efd4088ab03ca49c1#comments"
 ---
 
 A friend made me a compliment the other day, describing my code as "clean". I was fortunate to discover he referred both to its immediate appearance and to its structure.
