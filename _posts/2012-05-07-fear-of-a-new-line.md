@@ -324,6 +324,25 @@ Speaking of stepping back one pace, the change_shoes could have become a one lin
 
 I try to format functionally similar statements in the same way.
 
+{% highlight ruby linenos %}
+# Indulge in a compact variant for helper classes
+
+class Xanadu
+
+  class XanaduHelper
+    def initialize(a, b)
+      @a, @b = a, b
+    end
+    def id
+      "#{@a}:#{b}"
+    end
+    # ...
+  end
+end
+{% endhighlight %}
+
+For helper classes I tend to have a compact variant, with no comments and no blank lines. If the helper class grows, comments and blank lines kick in and the compact variant is abandoned.
+
 
 ## conclusion ##
 
