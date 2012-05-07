@@ -335,5 +335,5 @@ I'm not on a crusade against fellow programmers who have a different sense of co
 
 &nbsp;
 
-_(many thanks to Justin Gaylor for all his help correcting and editing this post)_
+_(many thanks to [Justin Gaylor](http://www.justingaylor.com) for all his help correcting and editing this post)_
 
