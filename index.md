@@ -19,3 +19,5 @@ title: jmettraux.github.com
   {{ post.date | date: '%Y-%m-%d' }}  [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+[old blog](http://jmettraux.wordpress.com)
+
