@@ -6,7 +6,8 @@ title: jmettraux.github.com
 ## misc
 
 [@jmettraux](http://twitter.com/jmettraux),
-[github](http://github.com/jmettraux)
+[github](http://github.com/jmettraux),
+[speakerdeck](https://speakerdeck.com/u/jmettraux)
 
 ## open source projects ##
 
