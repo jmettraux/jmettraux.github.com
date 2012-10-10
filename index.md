@@ -22,3 +22,16 @@ title: jmettraux.github.com
 
 [old blog](http://jmettraux.wordpress.com)
 
+## test ##
+
+```
+  nada
+    nada
+```
+
+```ruby
+  1 + 2 + *%w[ 1 2 3 ].collect(&:to_i)
+    #
+    # good fun
+```
+
