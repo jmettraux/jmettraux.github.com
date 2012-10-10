@@ -1,7 +1,6 @@
 ---
 layout: post
 title: the flow in ruote
-#comments: "https://github.com/jmettraux/jmettraux.github.com/commit/82a31687f1dd60938a9cbb2142e74179f7494c12"
 ---
 
 This post attempts to explain how things flow in ruote. It starts by defining a few terms then goes on describing how ruote workflows execute.
