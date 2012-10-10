@@ -97,6 +97,21 @@ div.highlight {
 }
 
 /*
+ * regular <pre>s
+ */
+pre, code {
+  color: green;
+  background: black;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 0.7em;
+  margin-bottom: 0.8em;
+}
+
+/*
  * *Normal          anything
  * *Comment         any comment
  * *Constant        any constant
