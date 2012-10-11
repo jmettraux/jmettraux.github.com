@@ -168,6 +168,8 @@ It can be thought of as a disadvantage: it would be so much easier if we could c
 
 (one could clone the workflow definition and tell executions a,b and c to follow the clone, but if we're into such iterations, why not simply iterate over a, b, c and change their execution trees like ruote does?)
 
+Ruote insists on such a design because branches should be independent as much as possible. It should be possible to rewire expressions from an execution tree to another or to simply cut away branches of executions to their own execution tree, which means, there isn't an explicit "execution tree" structure, it's grown out of parent/child relations between expressions.
+
 
 
 # cancel
@@ -276,10 +278,17 @@ Breakpoints are not real IDE breakpoints, but they may feel similar. Breakpoints
 
 # attach
 
+Attaching is launching a subtree attached to a given expression in the execution tree of a running process. The expressions in this subtree now behave as if they were children of the target (attached to) expression (although that expression doesn't wait for any answer from the subtree...)
+
+NTOSELF: cancelling a tree won't cancel the children...
+NTOSELF: is inserting a child easy?
+
 TODO
 
 
 # recap
 
 TODO
+
+[ ] add link to "flow thing" in ruote.rubyforge.org
 
