@@ -107,10 +107,12 @@ img {
   width: 47%;
   float: left;
   margin-right: 0.7em;
+  margin-bottom: 0.2em;
 }
 .half-code-right {
   width: 47%;
   float: right;
   margin-left: 0.7em;
+  margin-bottom: 0.2em;
 }
 
