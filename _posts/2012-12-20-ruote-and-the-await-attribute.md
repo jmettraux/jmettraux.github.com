@@ -9,7 +9,7 @@ ruote has got a new "await" attribute (can be placed on any expression) that sus
 
 &nbsp;
 
-[Ruote](http://ruote.rubyforge.org) is a Ruby workflow engine. It's about orchestrating tasks, routing work among participants. The most interesting questions people come up with are the ones about "how to model that flow in ruote?".
+[Ruote](http://ruote.rubyforge.org) is a Ruby workflow engine. It orchestrates tasks, routing work among participants. The most interesting questions people come up with are the ones about "how to model that flow in ruote?".
 
 The other day on IRC (freenode #ruote), Typedef asked me how one could model this in ruote:
 
@@ -38,7 +38,7 @@ end
 {% endhighlight %}
 </div>
 
-The rectangle is the top sequence, when the concurrence is done, C gets applied. The concurrence makes sure A and B are applied concurrently, the inner sequence align D after B and the :forget flag is here to let the B branch reply to the concurrence right after B finishes.
+Consider the diagram on the right, the rectangle is the top sequence, when the concurrence is done, C gets applied. The concurrence makes sure A and B are applied concurrently, the inner sequence align D after B and the :forget flag is here to let the B branch reply to the concurrence right after B finishes.
 
 <img src="images/2012-12-14-abc_d.png" align="right" style="margin: 0;" />
 
@@ -76,7 +76,7 @@ end
 
 There are 3 kind of events "await" can listen to: participant (on apply and on reply), tag (on entering and on leaving) and errors.
 
-The problem with this definition is that it never exits, the two await expressions behave like little daemons, that's how "await" (and "listen") are supposed to work, when they have a block they become daemons.
+The problem with this definition is that it never exits, the two await expressions behave like little daemons, that's how "await" (and "listen") are supposed to work, when they have a block they become daemons, sitting, listening and spinning a new process branch for _each_ event that matches.
 
 <div class="half-code">
 {% highlight ruby linenos %}
