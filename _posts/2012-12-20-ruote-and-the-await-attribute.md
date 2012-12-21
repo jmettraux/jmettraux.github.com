@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ruote and the :await attribute
-comments: "https://github.com/jmettraux/jmettraux.github.com/commit/53780de6290554435ea7f140aabb4c7141f8b3bd"
+comments: "https://github.com/jmettraux/jmettraux.github.com/issues/1"
 ---
 
 _tl;dr_<br/>
