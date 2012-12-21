@@ -7,6 +7,8 @@ comments: "https://github.com/jmettraux/jmettraux.github.com/issues/1"
 _tl;dr_<br/>
 ruote has got a new "await" attribute (can be placed on any expression) that suspends the application of the expression until a condition (entering or leaving a tag or a participant) realizes. Useful when expressing graphs.
 
+(with an [update](#update_20121222) thanks to Larry Marburger)
+
 &nbsp;
 
 [Ruote](http://ruote.rubyforge.org) is a Ruby workflow engine. It orchestrates tasks, routing work among participants. The most interesting questions people come up with are the ones about "how to model that flow in ruote?".
@@ -159,6 +161,8 @@ end
 {% endhighlight %}
 </div>
 
+<div class="clear"></div>
+
 I've added some documentation about this new "await attribute" to the [common attributes](http://ruote.rubyforge.org/common_attributes.html) page and to the [await expression](http://ruote.rubyforge.org/exp/await.html) documentation.
 
 Here are the main links for ruote:
@@ -169,4 +173,35 @@ Here are the main links for ruote:
 * freenode #ruote (irc)
 
 I wish you a Merry Christmas and a Happy New Year!
+
+&nbsp;
+
+## UPDATE (2012-12-22) ##
+
+<img src="images/2012-12-22-abcd.png" align="left" style="margin: 0; margin-right: 1em;" />
+
+[Larry pointed out](https://groups.google.com/forum/?fromgroups=#!topic/openwferu-users/p2cjNzE2CJE) that my reasoning started wrong for A and B.
+
+As Typedef enunciated it, A and B have no dependencies. All the versions I've shown above do A then B, that's a waste of B's time, it should be A and B (concurrence).
+
+<div class="half-code-right">
+{% highlight ruby linenos %}
+#
+# short version,
+# with Larry Marburger's fix
+#
+concurrence do
+  concurrence :tag => 'ab' do
+    a
+    b :tag => 'b'
+  end
+  c :await => 'ab'
+  d :await => 'b'
+end
+{% endhighlight %}
+</div>
+
+So here is the refined process, with A and B wrapped in a concurrence, so that the work starts with A and B.
+
+Thanks Larry!
 
