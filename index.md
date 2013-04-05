@@ -1,6 +1,6 @@
 ---
 layout: top
-title: jmettraux.github.com
+title: jmettraux.github.io
 ---
 
 ## misc
