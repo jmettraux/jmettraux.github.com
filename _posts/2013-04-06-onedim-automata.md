@@ -1,6 +1,7 @@
 ---
 layout: post
 title: onedim cellular automata
+comments: "https://github.com/jmettraux/jmettraux.github.com/issues/6"
 ---
 
 "There are a bunch of small worlds, from above, they look like circles, from a level point of view, they look somehow like [ 0 1 0 0 1 0 1 0 ]"
