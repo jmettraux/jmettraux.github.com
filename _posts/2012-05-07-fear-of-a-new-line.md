@@ -32,7 +32,7 @@ I try to be consistent and readable, whatever the style guide.
 
 Consistent in following my style rules or the style rules given for the project all the time.
 
-I [re-]read my code a lot, so I have a direct interest in it being readable. Most of the time, my eyes fly, scan, forgetting the syntax and trying to feed the bigger picture upstream.
+I \[re-\]read my code a lot, so I have a direct interest in it being readable. Most of the time, my eyes fly, scan, forgetting the syntax and trying to feed the bigger picture upstream.
 
 Scanning stops on:
 

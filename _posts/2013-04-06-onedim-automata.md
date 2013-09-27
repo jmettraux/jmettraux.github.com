@@ -4,7 +4,7 @@ title: onedim cellular automata
 comments: "https://github.com/jmettraux/jmettraux.github.com/issues/6"
 ---
 
-"There are a bunch of small worlds, from above, they look like circles, from a level point of view, they look somehow like [ 0 1 0 0 1 0 1 0 ]"
+"There are a bunch of small worlds, from above, they look like circles, from a level point of view, they look somehow like \[ 0 1 0 0 1 0 1 0 \]"
 
 I started my mini-talk at [Hiroshima.rb #31](http://hiroshimarb.github.io/blog/2013/04/06/hiroshimarb-31/) by writing 0s and 1s on the whiteboard.
 
