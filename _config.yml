@@ -5,8 +5,8 @@ lsi: false
 pygments: true
 
 # here
-auto: true
 permalink: /:year-:month-:day-:title.html
 exclude: [ 'README.md', 'Rakefile', 'TODO.txt', 'Gemfile', 'Gemfile.lock' ]
-markdown: redcarpet
+
+#markdown: redcarpet
 
