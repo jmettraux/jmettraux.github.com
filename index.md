@@ -14,6 +14,10 @@ title: jmettraux.github.io
 [rufus-scheduler](https://github.com/jmettraux/rufus-scheduler),
 [ruote](https://github.com/jmettraux/ruote)
 
+## moved ##
+
+This blog moved to [http://lambda.io/jmettraux/](https://dl.dropboxusercontent.com/u/76595/blog/index.html)
+
 ## posts ##
 
 {% for post in site.posts %}
