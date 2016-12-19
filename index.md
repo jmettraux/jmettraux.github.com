@@ -12,11 +12,12 @@ title: jmettraux.github.io
 ## open source projects ##
 
 [rufus-scheduler](https://github.com/jmettraux/rufus-scheduler),
+[flor](https://github.com/floraison/flor)
 [ruote](https://github.com/jmettraux/ruote)
 
 ## moved ##
 
-This blog moved to [http://lambda.io/jmettraux/](https://dl.dropboxusercontent.com/u/76595/blog/index.html)
+This blog moved to [http://jmettraux.skepti.ch/](http://jmettraux.skepti.ch)
 
 ## posts ##
 
