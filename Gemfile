@@ -14,6 +14,6 @@ gem 'rake'
 #s.add_dependency("rdiscount",  "= 1.6.8")
 #s.add_dependency("redcarpet",  "= 2.3.0")
 
-gem 'jekyll', '1.2.1'
+gem 'jekyll', '3.6.3'
 gem 'RedCloth', '4.2.9'
 
